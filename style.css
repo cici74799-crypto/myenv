@@ -1,0 +1,60 @@
+.image1 {
+    width: 300px;
+    background-image: url('img/st1.jpg');
+    background-size: 200%;
+    background-repeat: no-repeat;
+}
+
+.image2 {
+    width: 300px;
+    background-image: url('img/st2.jpg');
+    background-size: 200%;
+    background-repeat: no-repeat;
+}
+
+.image3 {
+    width: 300px;
+    background-image: url('img/st3.jpg');
+    background-size: 200%;
+    background-repeat: no-repeat;
+}
+
+index.html {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+body {background-color: rgb(248, 235, 213);}
+
+h1 {background-color: rgb(246, 221, 173);}
+hr {background-color: rgb(0, 0, 0);}
+
+footer {
+    background-color: rgb(246, 221, 173);
+    text-align: center;
+    padding: 10px;
+}
+
+.gallary {
+    display: inline-block;
+    border: 1px darkgray solid;
+    margin: 5px;
+    width: 300px;
+}
+
+.gallary Discription {
+    padding: 10px;
+    text-align: center;
+}
+.gallary :hover{
+    border: 1px rgb(75, 71, 71) solid;
+}
+.gallary img {
+    width: 100%;
+    height: auto;
+}
+strong {
+    color: rgb(115, 30, 30);
+}
