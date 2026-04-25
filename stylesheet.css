@@ -1,0 +1,133 @@
+/* Reset default spacing */
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+/* Header */
+header {
+    background-color: #424141;
+    color: white;
+    text-align: center;
+    font-size: 35pt;
+    padding-top: 40px 0;
+    position: relative;
+    top: -40px;
+    font-style: normal;
+    text-transform: none;
+    text-decoration: none;
+}
+
+header span {
+    color: #FFD700;
+    font-weight: bold;
+}
+
+/* Navigation */
+nav {
+    background-color: #504e4e;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 10px 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+nav ul li a:hover {
+    color: #FFD700;
+}
+
+/* Body styling */
+body {
+    color: #ffffff;
+    background-image: url(img/i1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Main content */
+main {
+    padding: 20px;
+    text-align: center;
+    color: #fffbfb;
+    font-size: 25px;
+    font-weight: lighter;
+    font-style: none;
+}
+
+main h2 {
+    margin-bottom: 10px;
+    font-weight: lighter;
+
+}
+
+
+/* List styling */
+main ul {
+    list-style: square;
+    margin-top: 10px;
+    color: #ffffff;
+    list-style: none;
+    list-style-image: none;
+    background-color: #424141;
+    text-transform: capitalize;
+}
+
+/* Blockquote */
+blockquote {
+    margin-top: 20px;
+    font-style: italic;
+    color: #ffffff;
+    font-weight: lighter;
+    letter-spacing: 05px;
+    font-weight: 900;
+    font-family:'Courier New', Courier, monospace;
+    background-color: #8B0000;
+}
+
+/* Footer */
+.foot {
+    background-color: #8B0000;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    font-size: 20pt;
+    text-transform: none;
+}
+
+#image {
+    height: 200px;
+    width: none;
+
+}
+
+
+#paragraph {
+    background-color: #504e4e;
+    text-align: center;
+    text-shadow: none;
+    text-decoration: #ffffff;
+    
+}
+
+#sp {
+    text-decoration: double;
+    font-style: oblique;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-indent: 0%;
+    text-transform: capitalize;
+}
